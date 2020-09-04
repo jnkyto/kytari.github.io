@@ -1,0 +1,61 @@
+body {
+	background: rgba(230, 230, 230, 1.0);
+}
+
+.header	 {
+	display: table;
+	margin: 0 auto;
+}
+
+.nav0	{
+	list-style-type: none;
+}
+
+.nav0 a	{
+	transition: all .1s ease-in;
+	-moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+	font-family: 'Source Code Pro', monospace;
+	text-decoration: none;
+	background: rgba(230, 230, 230, 1.0);
+	color: #242424;
+}
+
+.nav0 a:hover	{
+	background: rgba(36, 36, 36, 1.0);
+	color: #ffffff;
+}
+
+.nav_item	{
+	display: inline;
+	margin: 1em;
+}
+
+.headline	{
+	font-family: 'Source Code Pro', monospace;
+	color: #242424;
+}
+
+.bodytext	{
+	font-family: 'Source Code Pro', monospace;
+	color: #242424;
+}
+
+#post0 {
+	text-align: center;
+}
+
+.footer	{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(36, 36, 36, 1.0);
+}
+
+.info	{
+	font-family: 'Source Code Pro', monospace;
+	color: #ffffff;
+	text-align: center;
+}
