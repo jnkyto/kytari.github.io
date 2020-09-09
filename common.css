@@ -3,7 +3,7 @@ body {
 }
 
 .header	 {
-	width: 60em;
+	max-width: 60em;
 	float: center;
 	margin: 0 auto;
 }
@@ -12,7 +12,7 @@ body {
 	list-style-type: none;
 	float: left;
 	display: inline;
-	margin: 0em;
+	margin: 0 auto;
 }
 
 .home a	{
@@ -32,6 +32,8 @@ body {
 }
 
 .nav0	{
+	list-style-type: none;
+	display: inline;
 	float: right;
 	margin: 0 auto;
 }
