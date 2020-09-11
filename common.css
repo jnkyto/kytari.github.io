@@ -59,8 +59,17 @@ body {
 	margin: 0.5em;
 }
 
-.home_btn	{
-
+@media screen and (max-width: 600px)	 {
+	.nav0	{
+		float: left;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.nav_item	{
+		display: block;
+		margin: 0 auto;
+	}
 }
 
 .headline	{
@@ -78,7 +87,6 @@ body {
 }
 
 .footer	{
-	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
