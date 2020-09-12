@@ -59,7 +59,7 @@ body {
 	margin: 0.5em;
 }
 
-@media screen and (max-width: 600px)	 {
+@media screen and (max-width: 720px)	 {
 	.nav0	{
 		float: left;
 		display: block;
@@ -72,12 +72,17 @@ body {
 	}
 }
 
-.headline	{
+div.filler {
+	width: 100%;
+	margin: 3.9em;
+}
+
+h1.headline	{
 	font-family: 'Source Code Pro', monospace;
 	color: #242424;
 }
 
-.bodytext	{
+p.bodytext	{
 	font-family: 'Source Code Pro', monospace;
 	color: #242424;
 }
