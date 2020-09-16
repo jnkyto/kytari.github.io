@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 body {
 	background: rgba(230, 230, 230, 1.0);
@@ -22,7 +22,8 @@ body {
 	-moz-transition: all .1s ease-in;
     -o-transition: all .1s ease-in;
     -webkit-transition: all .1s ease-in;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	font-style: italic;
 	text-decoration: none;
 	background: rgba(230, 230, 230, 1.0);
 	color: #242424;
@@ -45,7 +46,8 @@ body {
 	-moz-transition: all .1s ease-in;
     -o-transition: all .1s ease-in;
     -webkit-transition: all .1s ease-in;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	font-style: italic;
 	text-decoration: none;
 	background: rgba(230, 230, 230, 1.0);
 	color: #242424;
@@ -80,12 +82,14 @@ div.filler {
 }
 
 h1.headline	{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	font-style: italic;
 	color: #242424;
 }
 
 p.bodytext	{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	font-style: italic;
 	color: #242424;
 }
 
@@ -101,7 +105,8 @@ p.bodytext	{
 }
 
 .info	{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	font-style: italic;
 	color: #ffffff;
 	text-align: center;
 }
