@@ -17,6 +17,11 @@ body {
 	margin: 0 auto;
 }
 
+#active	a {
+	background: rgba(36, 36, 36, 1.0);
+	color: #ffffff;
+}
+
 .home a	{
 	transition: all .1s ease-in;
 	-moz-transition: all .1s ease-in;
@@ -109,4 +114,26 @@ p.bodytext	{
 	font-style: italic;
 	color: #ffffff;
 	text-align: center;
+}
+
+#cookies	{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(36, 36, 36, 1.0);
+	display: block;
+}
+
+#cookies p	{
+	font-family: 'Arial', sans-serif;
+	color: #ffffff;
+}
+
+#cookies button	{
+	position: relative;
+	float: right;
+	right: 2em;
+	bottom: 2em;
+	padding: 1em;
 }

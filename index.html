@@ -3,8 +3,20 @@
 <head>
 	<!-- google font and stylesheet -->
 	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap" rel="stylesheet"> 
-	<link rel="stylesheet" type="text/css" href="common.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
 	
+	<!-- cookie message box (not used atm, probably never will) -->
+	<script>
+		function hideOnClick() {
+			var x = document.getElementById("cookies");
+			if (x.style.display === "none") {
+				x.style.display = "block";
+			} 
+			else {
+				x.style.display = "none";
+			}
+} 
+	</script>
 	<!-- common meta for web page -->
 	<title>WIP - jnkyto's website</title>
 	<meta charset="UTF-8">
@@ -23,13 +35,13 @@
 <!-- home button and navbar -->
 <div class="header">
 	<ul class="home">
-		<li class="home_btn"><a href="index.html">KYTONIEMI.TECH</a></li>
+		<li id="active" class="home_btn"><a href="index.html">KYTONIEMI.TECH</a></li>
 	</ul>
 	<ul class="nav0">
-		<li id="cat0" class="nav_item"><a href="placeholder.html">PLACEHOLDER</a></li>
-		<li id="cat1" class="nav_item"><a href="placeholder.html">HOLDPLACER</a></li>
-		<li id="cat2" class="nav_item"><a href="placeholder.html">PLALDHOCER</a></li>
-		<li id="cat3" class="nav_item"><a href="placeholder.html">HOLCEPLADER</a></li>
+		<li id="inactive" class="nav_item"><a href="music">/MUSIC/</a></li>
+		<li id="inactive" class="nav_item"><a href="placeholder">PLACEHOLDER</a></li>
+		<li id="inactive" class="nav_item"><a href="placeholder">HOLDPLACER</a></li>
+		<li id="inactive" class="nav_item"><a href="placeholder">PLALDHOCER</a></li>
 	</ul>
 </div><br>
 
@@ -42,16 +54,22 @@
 	<p class="bodytext">Still under construction.<br>Do come back at a later date.<br>(or don't, I don't mind)</p>
 	<p class="bodytext">The font seems to work on<br>mobile now. One problem solved.<br>Only 100 more to go.</p>
 	<br>
-	<img class="postimg" src="le_funny_maymay.jpg" alt="wholesome 100 reddit 100 keanu 100 chungus 100" width="300" height="300">
+	<img class="postimg" src="le_funny_maymay.jpg" alt="wholesome 100 reddit 100 keanu 100 chungus 100" width="480" height="525">
 </div>
 
 <!-- another filler div in here, maybe?? just use line breaks for now -->
-<br><br><br><br><br><br>
+<br><br>
 
 <!-- footer for author info etc -->
 <div class="footer">
-	<p class="info">Copyright Joona Kytöniemi 2020. Last edited: 2020-09-16 0944hrs</p>
+	<p class="info">Copyright Joona Kytöniemi 2020. Last edited: 2020-09-17 1708hrs</p>
 	<p class="info">Please refrain from reading the source "code" of this site. It's a mess.</p>
+</div>
+
+<div id="cookies">
+	<p>By visiting the /music/ tab, you agree to the <a href="https://soundcloud.com/pages/cookies">cookie policy</a> of Soundcloud. If you do not wish to agree, do not visit the tab. Thank you.</p>
+	<button onclick="hideOnClick()">OK</button>
+	<p>This box will always show up on reload, because I haven't used any cookies :)</p>
 </div>
 
 <!-- you still reading this? damn go do something productive -->

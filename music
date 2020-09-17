@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- google font and stylesheet -->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/music.css">
+	
+	<!-- common meta for web page -->
+	<title>WIP - jnkyto's music</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Music made by me">
+	<meta name="keywords" content="No valuable content">
+	<meta name="author" content="Joona Kytöniemi 2020">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- "do not cache this web page, this is for me -->
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+</head>
+<body>
+
+<!-- home button and navbar -->
+<div class="header">
+	<ul class="home">
+		<li id="inactive" class="home_btn"><a href="index.html">KYTONIEMI.TECH</a></li>
+	</ul>
+	<ul class="nav0">
+		<li id="active" class="nav_item"><a href="music">/MUSIC/</a></li>
+		<li id="inactive" class="nav_item"><a href="placeholder">PLACEHOLDER</a></li>
+		<li id="inactive" class="nav_item"><a href="placeholder">HOLDPLACER</a></li>
+		<li id="inactive" class="nav_item"><a href="placeholder">PLALDHOCER</a></li>
+	</ul>
+</div><br>
+
+<!-- this div is just filler as it says -->
+<div class="filler"></div>
+
+<div class="sc_player">
+<iframe width="100%" height="700" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/906236767&color=%2321221e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+</iframe>
+
+<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+	<a href="https://soundcloud.com/4a4b" title="kjna" target="_blank" style="color: #cccccc; text-decoration: none;">kjna</a> · 
+	<a href="https://soundcloud.com/4a4b/sets/ep1" title="autumne EP instrumental" target="_blank" style="color: #cccccc; text-decoration: none;">autumne EP instrumental</a>
+</div>
+</div>
+
+<!-- another filler -->
+<div class="filler"></div>
+
+<!-- footer for author info etc -->
+<div class="footer">
+	<p class="info">Copyright Joona Kytöniemi 2020. Last edited: 2020-09-17 1708hrs</p>
+	<p class="info">Please refrain from reading the source "code" of this site. It's a mess.</p>
+</div>
+
+</body>
+</html>
