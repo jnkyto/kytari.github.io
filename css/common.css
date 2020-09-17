@@ -102,6 +102,11 @@ p.bodytext	{
 	text-align: center;
 }
 
+.postimg	{
+	max-width: 100%;
+	height: auto;
+}
+
 .footer	{
 	left: 0;
 	bottom: 0;
