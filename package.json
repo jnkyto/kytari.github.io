@@ -1,0 +1,14 @@
+{
+  "name": "website_self",
+  "version": "2.0.0",
+  "description": "kytoniemi.tech 2.0",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "npx nodemon --experimental-modules index.mjs"
+  },
+  "keywords": [
+    "contentless"
+  ],
+  "author": "Joona Kytöniemi",
+  "license": "MIT"
+}
