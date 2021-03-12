@@ -1,7 +1,8 @@
 const PORT = 8000
 import http from 'http'
 import { headers } from './util/helpers.mjs'
-/* import home from './pages/home.mjs'; */
+import home from './pages/home.mjs'
+import about from './pages/about.mjs'
 
 (async () => {
     http
